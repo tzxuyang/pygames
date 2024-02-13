@@ -67,7 +67,7 @@ def main_hangman(file_path):
     if (gamewin(target_word, guessed_letters)):
         print('Great, you won!')
     else:
-        print('Sorry, you lost')
+        print(f'Sorry, you lost. The target word is {target_word}')
     print('\n**********************************************************************************')
     
 def draw_hangman(wrong_guesses):
