@@ -96,10 +96,13 @@ def main_tictactoe():
         printboard()
         
         if res == 'player1':
+            print('******************************************************')
             print('Player1 won!')
         elif res == 'player2':
+            print('******************************************************')
             print('Player2 won!')
         elif res == 'draw':
+            print('******************************************************')
             print('It is a draw')
         else:
             continue
