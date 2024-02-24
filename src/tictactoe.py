@@ -2,6 +2,7 @@ from random import choice
 import string
 import os
 
+
 board = [[0 for i in range(3)] for j in range(3)]
 marker = {0: ' ', 1:'X', 2: 'O'}
 player = 1
